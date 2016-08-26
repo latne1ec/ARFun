@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="W6V-ne-a0K">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera Four View Controller-->
+        <scene sceneID="gds-Ye-I4a">
+            <objects>
+                <viewController storyboardIdentifier="GPS" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nIf-RD-JfM" customClass="CameraFourViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9eG-tc-23r"/>
+                        <viewControllerLayoutGuide type="bottom" id="tLm-E2-X9a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rHK-bc-nQE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0w-ku-94q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="373"/>
+        </scene>
+        <!--Initial View Controller-->
+        <scene sceneID="gCc-bl-Shx">
+            <objects>
+                <viewController id="W6V-ne-a0K" customClass="InitialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VgY-zl-9XP"/>
+                        <viewControllerLayoutGuide type="bottom" id="omJ-FW-jmG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eSU-1D-YB6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u16-bi-INf">
+                                <rect key="frame" x="25" y="372" width="271" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="BWS-TX-zbJ"/>
+                                    <constraint firstAttribute="width" constant="271" id="UBJ-II-5Sb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="AR Coffee Shops Near Me"/>
+                                <connections>
+                                    <action selector="dasButtonTapped:" destination="W6V-ne-a0K" eventType="touchUpInside" id="iXV-YG-Xvg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffeeIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Bz-GW-6Jn">
+                                <rect key="frame" x="74" y="170" width="172" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="XWL-7O-DIu"/>
+                                    <constraint firstAttribute="width" constant="172" id="w17-Bj-ffx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.88" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHL-tg-0It">
+                                <rect key="frame" x="90" y="466" width="141" height="36"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="show on map"/>
+                                <connections>
+                                    <action selector="showMap:" destination="W6V-ne-a0K" eventType="touchUpInside" id="nGm-QO-Bkj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FHL-tg-0It" firstAttribute="top" secondItem="u16-bi-INf" secondAttribute="bottom" constant="27" id="9dQ-do-f2V"/>
+                            <constraint firstItem="u16-bi-INf" firstAttribute="top" secondItem="5Bz-GW-6Jn" secondAttribute="bottom" constant="74" id="DQ3-q0-ILs"/>
+                            <constraint firstItem="u16-bi-INf" firstAttribute="centerX" secondItem="5Bz-GW-6Jn" secondAttribute="centerX" id="MzH-zt-BSB"/>
+                            <constraint firstItem="FHL-tg-0It" firstAttribute="centerX" secondItem="u16-bi-INf" secondAttribute="centerX" id="YnU-WY-pEI"/>
+                            <constraint firstItem="5Bz-GW-6Jn" firstAttribute="top" secondItem="VgY-zl-9XP" secondAttribute="bottom" constant="150" id="iDc-hS-EK6"/>
+                            <constraint firstItem="FHL-tg-0It" firstAttribute="leading" secondItem="eSU-1D-YB6" secondAttribute="leadingMargin" constant="74" id="mAe-Hq-rwA"/>
+                            <constraint firstItem="5Bz-GW-6Jn" firstAttribute="centerX" secondItem="eSU-1D-YB6" secondAttribute="centerX" id="q4T-EC-1Yz"/>
+                            <constraint firstItem="omJ-FW-jmG" firstAttribute="top" secondItem="FHL-tg-0It" secondAttribute="bottom" constant="66" id="swT-8B-DPO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dasButton" destination="u16-bi-INf" id="Ofc-At-Y25"/>
+                        <outlet property="mapButton" destination="FHL-tg-0It" id="q0C-Kk-etR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXW-aJ-pz1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="1018"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="tJi-ag-SyT">
+            <objects>
+                <viewController storyboardIdentifier="Map" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nOw-7v-5xc" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C7s-HM-jan"/>
+                        <viewControllerLayoutGuide type="bottom" id="4AM-0l-ggQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ID8-AM-iFT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQJ-q2-jJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="733" y="1018"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coffeeIcon.png" width="150" height="150"/>
+    </resources>
+</document>
