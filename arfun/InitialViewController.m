@@ -35,10 +35,10 @@
     self.dasButton.layer.cornerRadius = 12;
     self.dasButton.clipsToBounds = true;
     self.dasButton.alpha = 0.7;
-    [self.dasButton setTitle:@"Preparing" forState:UIControlStateNormal];
+    [self.dasButton setTitle:@"Preparing.." forState:UIControlStateNormal];
     self.dasButton.userInteractionEnabled = false;
     
-    [self.mapButton setTitle:@"Preparing" forState:UIControlStateNormal];
+    [self.mapButton setTitle:@"Preparing.." forState:UIControlStateNormal];
     self.mapButton.userInteractionEnabled = false;
     
     [self.mapButton setTitleColor:[UIColor colorWithRed:0.93 green:0.15 blue:0.42 alpha:1.0] forState:UIControlStateNormal];

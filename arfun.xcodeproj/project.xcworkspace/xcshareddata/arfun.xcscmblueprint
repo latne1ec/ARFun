@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A5C63905B413A10A1A9FA1FAD37E384ECA74D0A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A5C63905B413A10A1A9FA1FAD37E384ECA74D0A" : 0,
+    "96B1669663BD9E9FC91E88F94A460E158E90FD20" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB1196AC-FF76-48FE-8D57-835C15EC2633",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A5C63905B413A10A1A9FA1FAD37E384ECA74D0A" : "arfun\/",
+    "96B1669663BD9E9FC91E88F94A460E158E90FD20" : "Enhanced-Samples-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "arfun",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "arfun.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/latne1ec\/ARFun.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A5C63905B413A10A1A9FA1FAD37E384ECA74D0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kudan-eu\/Enhanced-Samples-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96B1669663BD9E9FC91E88F94A460E158E90FD20"
+    }
+  ]
+}
